@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header__content{
+    background: rgb(36, 34, 34);
+    padding: 20px 0 ;
+}
+.header__info-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.header__info-title2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header__content-img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+}
+.header__content-links{
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.header__content-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header__content-link{
+    color: #fff;
+
+}
+.header__content-link:hover{
+    color: #fff;
+}
+.header__content-icon{
+    color: #fff;
+}
+.header__content-list{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.main__content-title2{
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    max-width: 560px;
+    padding: 10px 0;
+}
+.main__content-info2-text{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 550px;
+    padding: 15px 0;
+}
+.main__content-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.main__content-lenguage2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__content-language-list{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 15px;
+}
+.main__content-language{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+.main__content-lenguage2{
+    border-bottom: 2px dotted black;
+}
+.main__content-infos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.main__content-skill3{
+    display: flex;
+    column-gap: 25px;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+.main__content-skills-title{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 6px;
+}
+.main__content-education2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
